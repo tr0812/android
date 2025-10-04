@@ -634,7 +634,7 @@ class WebViewActivity :
 
         lifecycleScope.launch {
             if (presenter.isKeepScreenOnEnabled()) {
-                window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
+                //window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
             }
 
             lifecycle.repeatOnLifecycle(Lifecycle.State.STARTED) {
